@@ -1,0 +1,26 @@
+_V = Vanilla
+_I = Impure     +slag = 0.3kg per 1kg
+_N = Normal     slag = 0.15kg per 1kg
+_R = Rich       -slag = 0.05kg per 1kg
+
+Ore to Ingot ratios and times per 1kg ore
+Name  Ing_V  Time_V  Ing_I  Time_I  Ing_N  Time_N  Ing_R  Time_R
+Iron  0.7    0.05    0.1    0.2     0.25   0.1     0.9    0.05
+Sili  0.7    0.6     0.1    2.0     0.25   1.0     0.9    0.5
+Nick  0.4    0.66    0.04   2.4     0.1    1.2     0.4    0.6
+Coba  0.3    3.0     0.04   8.0     0.1    4.0     0.4    2.0
+Magn  0.007  0.5     0.001  1.6     0.0025 0.8     0.01   0.4
+Silv  0.1    1.0     0.02   2.0     0.05   1.0     0.2    0.75
+Gold  0.01   0.4     0.004  1.6     0.01   0.8     0.04   0.4
+Plat  0.005  3.0     0.001  8.0     0.0025 4.0     0.01   2.0
+Uran  0.01   4.0     0.002  8.0     0.005  4.0     0.02   2.0
+Ice   0.9    0.1     0.3    0.3     0.9    0.1     n/a    n/a
+
+
+Planets   Rich1    Rich2        Impure1   Impure2   Impure3
+Earth     Iron     Silver       Gold      Uranium   Platinum
+Moon      Silicon  Magnesium    Nickel    Cobalt    Silver
+Mars      Cobalt   Nickel       Iron      Silicon   Uranium
+Titan     Silicon  Gold         Iron      Silver    Platinum
+Alien     Iron     Uranium      Nickel    Cobalt    Magnesium
+Europa    Nickel   Platinum     Silicon   Magnesium Gold

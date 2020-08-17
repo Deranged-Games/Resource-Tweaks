@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+    <Entry Class="Ingots" BlueprintSubtypeId="SlagOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="IronIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="IronPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="NickelIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="NickelPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="CobaltIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="CobaltPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="MagnesiumIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="MagnesiumPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SiliconIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SiliconPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SilverIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SilverPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="GoldIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="GoldPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="PlatinumIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="PlatinumPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="UraniumIOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="UraniumPOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="IceIToIce" />
+
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SlagOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="IronIOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="IronPOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="NickelIOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="NickelPOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="CobaltIOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="CobaltPOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="MagnesiumIOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="MagnesiumPOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconIOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconPOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="IceIToIce" />
+  </BlueprintClassEntries>
+</Definitions>
