@@ -40,6 +40,8 @@
       </Results>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
     </Blueprint>
+
+    <!-- Slag -->
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -58,6 +60,69 @@
       </Results>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
     </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrusherSlagOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ore" SubtypeId="Slag" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="2.0" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="0.6" TypeId="Ore" SubtypeId="Iron Powder" />
+        <Item Amount="0.03" TypeId="Ore" SubtypeId="Nickel Powder" />
+        <Item Amount="0.06" TypeId="Ore" SubtypeId="Silicon Powder" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IronPowderToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Iron Powder" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Iron" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.02</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SiliconPowderToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SiliconWafer</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Silicon Powder" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Silicon" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>NickelPowderToIngot</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NickelIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Nickel Powder" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
+      </Results>
+      <BaseProductionTimeInSeconds>0.2</BaseProductionTimeInSeconds>
+    </Blueprint>
 
     <!-- Iron -->
     <Blueprint>
@@ -65,7 +130,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IronIOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Iron Ingot Impure</DisplayName>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Iron Impure" />
@@ -97,7 +162,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>IronPOreToIngot</SubtypeId>
       </Id>
-      <DisplayName>Iron Imgot Concentrated</DisplayName>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="Iron Rich" />

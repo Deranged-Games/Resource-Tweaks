@@ -1,7 +1,39 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Hex_StoneCrusher</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\filter_rock.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\filter_gravel.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Hex_UraniumCentrifuge</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\filter_uraniumore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_uranium.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
   <BlueprintClassEntries>
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="CrusherSlagOreToIngot" />
+    <Entry Class="Hex_UraniumCentrifuge" BlueprintSubtypeId="UraniumOreToIngot" />
+    <Entry Class="Hex_UraniumCentrifuge" BlueprintSubtypeId="UraniumIOreToIngot" />
+    <Entry Class="Hex_UraniumCentrifuge" BlueprintSubtypeId="UraniumPOreToIngot" />
+
     <Entry Class="Ingots" BlueprintSubtypeId="SlagOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="IronPowderToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="SiliconPowderToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="NickelPowderToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="IronIOreToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="IronPOreToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="NickelIOreToIngot" />
@@ -23,6 +55,9 @@
     <Entry Class="Ingots" BlueprintSubtypeId="IceIToIce" />
 
     <Entry Class="CommonMetals" BlueprintSubtypeId="SlagOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="IronPowderToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SiliconPowderToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="NickelPowderToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="IronIOreToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="IronPOreToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="NickelIOreToIngot" />
